@@ -1,0 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch
+git+https://github.com/openai/whisper.git
+distutils
+Flask==2.0.2
+pydub==0.25.1
+python-dotenv==0.19.1
+requests==2.31.0
+whisper
