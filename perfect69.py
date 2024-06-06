@@ -5,10 +5,14 @@ from deepgram import DeepgramClient, PrerecordedOptions
 from datetime import datetime
 import threading
 
+from flask_cors import CORS
+
 # Load environment variables from .env file
 load_dotenv()
 
 app = Flask(__name__)
+
+CORS(app)
 
 port = int(os.environ.get("PORT", 5000))
 API_KEY = os.getenv("DG_API_KEY")
