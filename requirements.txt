@@ -10,3 +10,4 @@ gunicorn
 s3transfer==0.10.1
 deepgram-sdk
 Jinja2
+Flask-Cors
